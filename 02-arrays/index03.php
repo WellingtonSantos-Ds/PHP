@@ -11,7 +11,7 @@ $lista = [
   'mana' => 928  
 ];
 
-
+echo ($lista > 18 ) ? ; 
 echo "NOME: ".$lista['nome']."<br>";
 echo "FORÇA: ".$lista['atributos']['forca']."<br>";
 echo "VIDA: ".$lista['vida'];
