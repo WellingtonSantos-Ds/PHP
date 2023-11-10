@@ -4,10 +4,12 @@
 
   function somar ($a,$b){
     
+    
     $total = $a + $b;
     return $total; 
   }
   $somaTotal=somar(50,100);
+  
   echo $somaTotal."<br>";
 
   //função com variaves
@@ -34,7 +36,7 @@
   }
   somar04(4,4);
 
-  função normal
+  //função normal
   function somarr($a , $b){
       $soma = $a + $b;
       return $soma;
