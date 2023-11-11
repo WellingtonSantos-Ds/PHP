@@ -9,7 +9,7 @@ switch($type){
     break;
   
   case 'texto':
-    echo 'isso é um TEXTO.';
+    echo 'isso é um TEXTO.'; 
     break;
   
   case 'video':

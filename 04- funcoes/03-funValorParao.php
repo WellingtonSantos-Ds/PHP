@@ -7,6 +7,7 @@ function somar($n1, $n2 = 0, $n3 = 0){
   return $total;
 }
 
+
 $x = somar(1);
 $y = somar(4,4);
 $w = somar ($x,$y);
@@ -20,6 +21,7 @@ function som(int $n1, int $n2 = 0, int $n3 = 0){
   return $total;
 }
 
-$c=som ('err','fre');
+$c = som ('err','fre');
 
 echo $c;
+

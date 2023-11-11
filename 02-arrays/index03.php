@@ -1,7 +1,7 @@
 <?php
 $lista = [
   'nome' =>'wellington', 
-  'ege' => 90, 
+  'idade' => 90, 
   'atributos' => [
     'forca' => 60, 
     'agilidade' => 80,
