@@ -9,5 +9,5 @@ for($i=0; $i < count($word) && $i < count($answer); $i++){
 
     echo $word[$i]."<br>";
     echo $answer[$i]."<br>"; 
-    echo "<br>";
-} 
+dsdf
+hj
