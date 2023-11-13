@@ -1,11 +1,11 @@
 <?php
 $lista = [
-  'nome' =>'wellington', 
+  'nome' =>'Wellington', 
   'idade' => 90, 
   'atributos' => [
     'forca' => 60, 
     'agilidade' => 80,
-    'detsreza' => 50,
+    'destreza' => 50,
   ], 
   'vida' => 100,
   'mana' => 928  

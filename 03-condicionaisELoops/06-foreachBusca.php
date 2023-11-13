@@ -4,10 +4,10 @@ $ingredientes = [
   'bolo',
   'ovo',
   'farinha',
-  'chocolote', 
+  'chocolate', 
 ];
 
-// loop para percorer o ary . para cada loop de (ingredientes). (tudo) asume um valor do arry em sequencia cresente. 
+// loop para percorrer o ary . para cada loop de (ingredientes). (tudo) assume um valor do array em sequencia crescente. 
 
 foreach($ingredientes as $tudo){
   

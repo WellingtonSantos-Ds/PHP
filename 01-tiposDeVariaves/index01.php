@@ -1,12 +1,12 @@
 <?php 
   
-$name = "wllingonton "; // Sting utilizando aspas duplas.
+$name = "wllingonton "; // String utilizando aspas duplas.
 
-$name = 'Xanpis '; // Stiring utilizando aspas sinplis
+$name = 'Xanpis '; // String utilizando aspas simples
 
 $nunber = 75; //Variavel numero
 
-$sleeping = false; // Variavel bolaeana
+$sleeping = false; // Variavel booleana
 
 $nula = null; // Variavel nula não tem valor 
 

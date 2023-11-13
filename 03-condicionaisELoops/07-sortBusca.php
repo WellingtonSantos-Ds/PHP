@@ -1,6 +1,6 @@
 <?php 
 
-//O sort ordena  a lista em Ordem cresente para funcionar chama-se ele depos o que vai percorer a lista
+//O sort ordena  a lista em Ordem crescente para funcionar chama-se ele depôs o que vai percorrer a lista
 
 $lista = [2,5,6,7,3];
 

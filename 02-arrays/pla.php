@@ -1,12 +1,12 @@
 <?php
 
-$nome = 'pablo';
+$nome = 'Pablo';
 $idade = 25;
 $cidade = 'salvador';
 
 $list = [
   $nome => [
-    'forsa' => 20,
+    'força' => 20,
   ],
   $idade,
   $cidade 

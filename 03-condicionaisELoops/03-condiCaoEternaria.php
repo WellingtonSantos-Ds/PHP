@@ -1,11 +1,11 @@
 <?php
 
-//Condicinal ternaria 
+//Condicional ternaria 
 
-$name =  'wellington ';
+$name =  'Wellington ';
  
 
-//(Se utiliza para uma variavel que á inda  não foi criada. Ela verifica se o lastname existe ou não, se existir coloca se não, não coloca. (isset) se existe a variavel.)
+//(Se utiliza para uma variável que á inda  não foi criada. Ela verifica se o lastname existe ou não, se existir coloca se não, não coloca. (isset) se existe a variável.)
 
  $fullName = $name;
  $fullName .= isset ($lastName) ? $lastName : null;
@@ -13,19 +13,19 @@ $name =  'wellington ';
  echo $fullName;
 
 
- //Condicinal null CAO    
+ //Condicional null CAO    
 
- //faz a mesma coisa que a de sima, sá que com menos linha. Se a variavel esistir use ela mesmo (??) se não use null.
+ //faz a mesma coisa que a de sima, sá que com menos linha. Se a variavel existir use ela mesmo (??) se não use null.
 
-$nomeConpleto = $name;
-$nomeConpleto .= $sobre ?? null;
+$nomeCompleto = $name;
+$nomeCompleto .= $sobre ?? null;
 
 //segundo exenplo;
 
-$nomeConpleto = $name ?? "Visitante";
-$nomeConpleto .= $sobre ?? null;
+$nomeCompleto = $name ?? "Visitante";
+$nomeCompleto .= $sobre ?? null;
 
-echo $nomeConpleto;
+echo $nomeCompleto;
 
 
 

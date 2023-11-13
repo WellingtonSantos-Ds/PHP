@@ -1,8 +1,8 @@
 <?php
 
-// Operador ternario:
+// Operador ternário:
 
-// (Condição) ? RESULTADO POSIIVO : RESULTADO NEGATIVO;
+// (Condição) ? RESULTADO POSITIVO : RESULTADO NEGATIVO;
 
 $idade = 98;
 

@@ -27,4 +27,4 @@ $lista1 = ['pablo','adriele','junior'];
 $lista2 = ['adriana','wellington','jão'];
 $lista3 = [...$lista1,...$lista2, 'miranha','aut'];
 
-print_r($lista3); // Inprime a lista de array.
+print_r($lista3); // Imprime a lista de array.
