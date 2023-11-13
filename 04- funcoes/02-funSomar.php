@@ -23,7 +23,7 @@
     return $total;
   }
 
-  $valor = somar02($r,$t);
+  $valor = somar02 ($r,$t);
   echo $valor."<br>";
 
   // função com imprimir dentro

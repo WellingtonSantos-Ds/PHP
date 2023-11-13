@@ -13,7 +13,4 @@ $list = [
 ];
 
 print_r ($list);
-jjjjhk
 
-gjkhjf
-j
