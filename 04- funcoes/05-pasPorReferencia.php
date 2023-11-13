@@ -14,12 +14,11 @@ $valores = 0; //Eu estou mandando a variavel ($valores) não o valor. quando a v
 
  somar($x, $y, $valores);  
 
-echo $valores; //voce não pega mas a variavel pasada por soma [$pega= somar($x,$y,$valores);]  mas a variavel dentro de soma,
+echo $valores; //voce não pega mas a funçao somar  [$pega = somar($x,$y,$valores);]  mas a variavel dentro de somar,
 
 
 //função nativa que funciona por referencia.
 $lista = [2,5,6,7,3];
-
 
 sort ($lista);
 
