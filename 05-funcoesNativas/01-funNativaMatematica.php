@@ -1,7 +1,7 @@
 <?php
-//Além desse tem vários outros na documentação.
+// Além desse tem vários outros na documentação.
 
-// pegando valor absoluto de um numero. Ou seja valor positivo.
+// Pegando valor absoluto de um numero. Ou seja valor positivo.
 
 $numero = -8.3;
 echo abs($numero)."<br>"; 
