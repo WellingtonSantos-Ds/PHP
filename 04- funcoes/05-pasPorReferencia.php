@@ -10,7 +10,7 @@ function somar ($n1, $n2, &$total){
 
 $x = 6;
 $y = 12;
-$valores = 0; //Eu estou mandando a variavel ($valores) não o valor. quando a variavel ($total) ser auterada dentro  da funçao minha variavel ($valores) tanbem sera alterada fora da funçao.
+$valores = 0;//Eu estou mandando a variavel ($valores) não o valor. quando a variavel ($total) ser auterada dentro  da funçao minha variavel ($valores) tanbem sera alterada fora da funçao.
 
  somar($x, $y, $valores);  
 

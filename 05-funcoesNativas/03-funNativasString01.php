@@ -2,7 +2,7 @@
 // Procura por determinado caractere  ou palavra dentro de outra string.
 $nomeCompleto = 'wellington santos';
 // Diz qual posição o (a)  aparece pela primeira vez. Se não tiver a letra (retorna nada ou -1). eu posso procura por uma palavra especifica como maçam e ver se tem no texto.
-$posicao = strpos($nomeCompleto, 's');
+$posicao = strpos($nomeCompleto, 'a');
 echo $posicao."<br>";
 
 //Eu não posso verificar (>=0) por que (strpos) retorna (true) e true e 0 se confundem.
