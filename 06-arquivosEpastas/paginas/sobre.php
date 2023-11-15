@@ -1,6 +1,6 @@
 
 <?php
 //voutar uma pasta
-require('../tenple/header.php');
+require('../tenple/estrutura/header.php');
 ?>
 Pagina sobre.
