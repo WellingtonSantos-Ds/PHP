@@ -3,6 +3,9 @@
 $nome = filter_input(INPUT_GET,'nome');
 $idade = filter_input(INPUT_GET,'idade');
 
+//No FILTER_INPUT validamos informações vindas do usuário através de um input, já o FILTER_VAR verificamos e filtramos informações já contidas em uma variável.
+filter_var($idade,"E o nome do filtro que eu queto");
+
 if($nome && $idade){
    echo 'Nome = '. $nome."<br>";
    echo 'Idade = '.$idade; 
