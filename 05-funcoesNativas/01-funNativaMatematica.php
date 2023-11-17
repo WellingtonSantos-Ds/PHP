@@ -11,12 +11,11 @@ echo abs($numero)."<br>";
 echo pi()."<br>";
 
 // Arredondamento comum 3.5 vira 4. também posso arredondar com casas decimais.
-
 $comum = 3.4;
 echo round($comum)."<br>";
 
+//pega o (67) e arredonda para(70).
 $commun = 3.56780;
-//pega o (67) e arredonda.
 echo round($commun,2)."<br>";
 
 // Arredondamento sempre para baixo.
