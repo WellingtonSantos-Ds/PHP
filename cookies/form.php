@@ -1,9 +1,10 @@
-
 <?php
-require('header.php');
+require('cabeca.php');
 ?>
 
-<form method="GET" action="recebendo.php">
+<a href="apagar.php">Limpar Cookie</a>
+
+<form method="GET" action="dados.php">
 
    <label>
       Nome:
@@ -21,15 +22,5 @@ require('header.php');
    <br>
    <br>
 
-   <label>
-      Email:
-      <br>
-      <input type="text" name="email">
-   </label>   
-   <br>
-   <br>
-
-   
    <input type="submit" value="Enviar">
 </form>
-
