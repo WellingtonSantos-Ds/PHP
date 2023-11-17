@@ -10,7 +10,6 @@ if($_SESSION['aviso']){
    //Limpando o array aviso.
    $_SESSION['aviso']='';
 }
-require('nomeDaPasta.php'); 
 
 
 if($variavel && $outraVariavel){

@@ -1,8 +1,7 @@
 <?php
-require('cabeca.php');
+require_once ('header.php');
 ?>
 
-<a href="apagar.php">Limpar Cookie</a>
 
 <form method="GET" action="dados.php">
 
