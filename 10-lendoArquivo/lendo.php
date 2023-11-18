@@ -6,4 +6,5 @@
  // Explode quebrando o texto em linha e colocando em um array; 
 $texto = explode("\n", $texto);
 echo 'Números De Linhas ='.count($texto);
- //LEMDO
+ //LENDO
+ 
