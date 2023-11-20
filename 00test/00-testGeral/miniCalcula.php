@@ -1,55 +1,15 @@
 <?php
+// // Aqui eu estou pegando o arquivo do array ['arquivo'] na pasta ['tmp_name'] e salvando na menha pasta (salvandoPng);
+// move_uploaded_file($_FILES['arquivo']['tmp_name'],'salvandoPng/'.$name);
+// // pode ser assim também.
+// //move_uploaded_file($_FILES['arquivo']['tmp_name'],'salvandoPng/'.$_FILES['arquivo']['name']);
+// echo 'Salvo';
 
-$num01 = filter_input(INPUT_POST, "txtNumero1");
-$num02 = filter_input(INPUT_POST, "txtNumero2");
-$opera = filter_input(INPUT_POST, "slOperacao");
-$resul = "";
-
-if($num01  && $num02){
-  switch($opera){
-    case "+":
-      $resul = ($num01 + $num02);
-    break;
-    case "-":
-      $resul = ($num01 - $num02);
-    break;
-    case "*":
-      $resul = ($num01 * $num02);
-    break;
-    case "/":
-      $resul = ($num01 / $num02);
-    break;
-  }
+function test($x, $y) 
+{
+    return $x == $y ? ($x + $y)*3 : $x + $y ;
 }
-
-?>
-
- <!DOCTYPE html>
- <html lang="en" dir="ltr">
-   <head>
-     <meta charset="utf-8">
-     <title>Operações</title>
-     
-     <style>
-      input, select{padding:10px; margin: 5px;}
-      
-
-   </style>
-   </head>
-   <body>
-     <h1><?=$resul;?></h1>
-     <form method="post">
-       <label>Número 1: <input type="text" name="txtNumero1"/></label><br>
-       <label>Número 2: <input type="text" name="txtNumero2"/></label><br>
-      <label>Operação:
-         <select name="slOperacao">
-           <option value="+">Adição</option>
-           <option value="-">Subtração</option>
-           <option value="*">Multiplicação</option>
-           <option value="/">Divisão</option>
-         </select>
-       </label><br>
-       <input type="submit" name="btnCalcular" value="Calcular">
-     </form>
-   </body>
- </html>
+echo test(1, 2)."<br>";
+echo test(3, 2)."\n";
+echo test(2, 2)."\n";  
+ 

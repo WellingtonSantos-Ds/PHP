@@ -3,7 +3,7 @@
 // echo "<pre>";//transforma o array em código. 
 // print_r($_FILES); // imprimindo array files.
 
-// // Salvando o arquivo para não perder depôs que a requisição acabar.
+// // Salvando o arquivo para não perder depois que a requisição acabar.
   
 // // Aqui eu estou pegando de files ['arquivo'] que é meu input html, a propriedade ['name'] que é nome do arquivo enviado o pelo usuário. 
 // $name = $_FILES['arquivo']['name'];
