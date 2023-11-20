@@ -19,10 +19,10 @@ foreach($ingredientes as $tudo){
 
 foreach($ingredientes as $chave => $tudo){
   
-  echo 'Item '.$chave. ' = '.$tudo."<br>";
+  echo 'Item '. $chave .' = '. $tudo ."<br>";
   
   //buscando com mas um;
-  echo 'Item '.($chave +1). ' = '.$tudo."<br>";
+  echo 'Item '. ($chave +1) .' = '. $tudo ."<br>";
 
 }
 
@@ -30,7 +30,7 @@ foreach($ingredientes as $chave => $tudo){
 echo "<h2>buscacom listas</h2>";
 echo "<ul>";
 foreach($ingredientes as $tudo){
-echo "<li>".$tudo."</li>";
+echo "<li>". $tudo ."</li>";
 }
 
 echo "</ul>";
