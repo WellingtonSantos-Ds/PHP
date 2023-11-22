@@ -10,4 +10,4 @@ print_r($retorna);
 
 $retorna = array_slice($array, -3 , 2);
 // vai retornar de ('d' até 'e');
-print_r($retorna);
+print_r($retorna); 
