@@ -19,7 +19,7 @@ echo strtoupper($nome)."<br>";
 $nomeAlterado = str_replace('santos','Lacerda', $nome );
 echo $nomeAlterado."<br>";
 
-// (substr) pegas á quantidade de caractere escolhida. do 0 au 5 pega 5 caractere. do  3 au 3  começa do 3 e pega 3 caractere. do -3 ou 3. ele conta de traz para frente.
+// (substr) pega á quantidade de caractere escolhido. do 0 au 5 pega 5 caractere. do  3 au 3  começa do 3 e pega 3 caractere. do -3 ou 3. ele conta de traz para frente.
  
 //passo primeiro a variavel como parâmetro.O segundo de onde começa e o terceiro onde termina.  
 echo substr($nome, 0 ,5 )."<br>";

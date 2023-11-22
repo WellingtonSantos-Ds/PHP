@@ -8,7 +8,7 @@
     $total = $a + $b;
     return $total; 
   }
-  $somaTotal=somar(50,100);
+  $somaTotal = somar(50,100);
   
   echo $somaTotal."<br>";
 
