@@ -12,7 +12,7 @@
 
 $nomes = filter_input(INPUT_GET,'nomes',FILTER_SANITIZE_STRING);
 
-if($nomes==true){
+if($nomes){
   $texto = file_get_contents('nomes.txt');
   $texto .= "\n$nomes";
   file_put_contents('nomes.txt',$texto);

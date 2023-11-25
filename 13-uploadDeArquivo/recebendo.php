@@ -15,7 +15,7 @@
 // echo 'Salvo';
 
 
-
+ function soma ()
 
 //verificando o tipo do arquivo salvo.
 $tipo = ['image/jpe','image/png','image/jpg'];
@@ -30,6 +30,6 @@ move_uploaded_file($_FILES['arquivo']['tmp_name'],'salvandoPng/'.$name);
 echo 'Salvo';
 
 }else{
-   echo 'Arquivo Não permitido';
+   echo 'Arquivo Não permitido'."<br>";
 
 }

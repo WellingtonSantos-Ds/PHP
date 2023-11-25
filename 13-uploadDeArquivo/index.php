@@ -4,13 +4,14 @@
 Quando é arquivo também tem que ter o enctype  para poder enviar os arquivos. -->
 
 <form action="recebendo.php" method="POST" enctype="multipart/form-data">
-<h1>ENVIO DE ARQUIVO:</h1>
+   <h1>ENVIO DE ARQUIVO:</h1>
 
-<label >
-   <br>
-   <input type="file"name="arquivo">
-   <button>Adicionar</button>
-</label>
+   <label >
+      <br>
+      <input type="file"name="arquivo">
+      <button>Adicionar</button>
+   </label>
+   
 </form>
 
 
