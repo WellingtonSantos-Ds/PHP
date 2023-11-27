@@ -7,4 +7,3 @@
 $texto = explode("\n", $texto);
 echo 'Números De Linhas ='.count($texto);
  //LENDO
- 

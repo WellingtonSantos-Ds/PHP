@@ -1,5 +1,4 @@
 
-
 class Pessoa {
   constructor(nome, idade, ){
     this.nome = nome;
@@ -43,6 +42,7 @@ class Carro{
   }],
 
   fn:() => console.log('viado')
+  
 
   
  }
