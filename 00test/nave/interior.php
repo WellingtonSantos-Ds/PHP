@@ -1,3 +1,6 @@
+
+
+
 <?php
 session_start();
 
@@ -15,6 +18,7 @@ if ($nome && $trip) {
 }
 
 // Remove uma nave específica se o parâmetro 'excluir_nave' estiver presente na URL
+
 if (isset($_GET['excluir_nave'])) {
     $naveExcluir = $_GET['excluir_nave'];
 
