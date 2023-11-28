@@ -49,3 +49,4 @@ class Carro{
 
  console.log(pessoaVelha);
 pessoaVelha.fn()
+
