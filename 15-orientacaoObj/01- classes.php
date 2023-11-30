@@ -14,7 +14,5 @@ $post1 -> like = 3;
 
 
 $post2 = new Post();
-$post2 -> like = 10;
-
-echo 'post1 = '.$post1->like."<br>";
-echo 'post2 = '.$post2->like."<br>";
+$post2 -> like = 10
+echo 'post1 = '.$post1->like."<br>"
