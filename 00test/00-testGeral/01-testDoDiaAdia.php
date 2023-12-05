@@ -1,20 +1,11 @@
 <?php
 
-function somar ($a,$b){
-   
-   $valor = $a + $b;
-
-   
-   do{
-      echo $valor."<br>";
-      $valor += 1;
-   }while ($valor < 100);
-      
-   
-    return $valor;
-   
+function latir(){
+   echo 'latindo'."<br>";
 }
 
-somar(0,95);
+for($i=0; $i < 10; $i++){
+   latir();
+}
 
 
