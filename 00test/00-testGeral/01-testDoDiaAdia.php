@@ -4,7 +4,7 @@ function somar($a, $b)
 {
     return $a + $b;
 }
-
+fn (fsd) => s; 
 // Chamando a função somar com dois números
 $resultado1 = somar(2, 2);
 echo $resultado1; // Saída: 4

@@ -7,6 +7,8 @@ class Pessoa {
 
   }
   
+  const = 3 
+
   addCar(marca,modelo){
     this.garagem.push(new Carro(marca,modelo));
   }
@@ -18,6 +20,7 @@ class Carro{
     this.modelo = modelo
    }
 }
+let ola = 3 
 
  const novaPessoa = new Pessoa('pablo',12);
 
