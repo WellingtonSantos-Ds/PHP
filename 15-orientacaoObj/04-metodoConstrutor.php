@@ -1,6 +1,6 @@
 <?php
  
-class post{
+class Post{
    public int $id = 0;
    public int $like = 0;
    public array $coments = [];
@@ -18,7 +18,7 @@ class post{
    }
 }
 
-$pos = new post(1);
+$pos = new Post(1);
 echo 'Like  = '.$pos-> like."<br>";
-$pos2 = new post(2);
+$pos2 = new Post(2);
 echo 'Like  = '.$pos2-> like."<br>".'id = '.$pos2 -> id."<br>";
