@@ -9,7 +9,7 @@ class Nave{
       $this-> nomeNave = $nome;
       $this-> piloto = $pilot;
    }
-
+  
    function setVelocidade($velo){
       if ($velo < $velo) {
          $this-> velocidade = $this-> velocidade - $velo;
