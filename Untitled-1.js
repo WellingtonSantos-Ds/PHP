@@ -8,6 +8,7 @@ class Pessoa {
   }
  
   const = 3 
+  const = nome;
 
   addCar(marca,modelo){
     this.garagem.push(new Carro(marca,modelo));
