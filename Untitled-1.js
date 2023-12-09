@@ -6,7 +6,7 @@ class Pessoa {
     this.garagem = [];
 
   }
-  
+ 
   const = 3 
 
   addCar(marca,modelo){
