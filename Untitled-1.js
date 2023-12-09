@@ -7,12 +7,10 @@ class Pessoa {
 
   }
  
-  const = 3 
-  const = nome;
-
   addCar(marca,modelo){
     this.garagem.push(new Carro(marca,modelo));
   }
+
 } 
 
 class Carro{
@@ -21,17 +19,19 @@ class Carro{
     this.modelo = modelo
    }
 }
-let ola = 3 
 
- const novaPessoa = new Pessoa('pablo',12);
 
- console.log(novaPessoa)
- novaPessoa.addCar('ford','mustang')
- console.log(novaPessoa)
 
- let carro = 'Mustang';
 
- const pessoaVelha = {
+const novaPessoa = new Pessoa('pablo',12);
+
+console.log(novaPessoa)
+novaPessoa.addCar('ford','mustang')
+console.log(novaPessoa)
+
+let carro = 'Mustang';
+
+const pessoaVelha = {
  
   pessoa:[{
     mome:'plablo',
@@ -46,11 +46,8 @@ let ola = 3
   }],
 
   fn:() => console.log('viado')
-  
+}
 
-  
- }
-
- console.log(pessoaVelha);
+console.log(pessoaVelha);
 pessoaVelha.fn()
 
