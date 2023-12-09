@@ -8,7 +8,7 @@ $cake1 = [
   'Fermento em pó',  
 ];
 
-
+e
 $cake2 = [
   ...$cake1,// +5
   'corante',// 6
