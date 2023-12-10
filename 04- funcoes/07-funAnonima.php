@@ -14,11 +14,11 @@ echo $dismo(50)."<br>";
 //essa variavel vem com um valor diferente 
 
 echo $funcao(90);
-
+const 
 
 // Pode passar essa função como parametro de qulquer outra função.
 
-function somar($a,$b){
+function somar($a,$b){ 
    // argumento
 }
 

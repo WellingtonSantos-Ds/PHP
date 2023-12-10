@@ -10,6 +10,7 @@ class Pessoa {
   }
 }
 
+
 class Carro {
   constructor(marca, modelo) {
     this.marca = marca;
