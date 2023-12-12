@@ -1,3 +1,4 @@
 <?php
 require('heder.php');
-echo 'Conteúdo de sobre';
+require('config.php');
+echo 'exporando nome de config '.$nome;
