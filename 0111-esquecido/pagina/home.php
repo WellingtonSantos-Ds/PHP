@@ -1,4 +1,5 @@
 <?php
-require('../tenplates/estrutura/heder.php');
+require('../tenplate/estrutura/header.php');
 ?>
-<p>Estou na pagina home</p>
+
+<p>Estamos No Home </p>

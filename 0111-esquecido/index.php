@@ -1,3 +1,3 @@
-<a href="pagina/outra/home.php">Home</a> 
+<a href="pagina/home.php">Home</a>
 <br>
-<a href="tenplates/estrutura/sobre.php">Sobre</a>
+<a href="pagina/sobre.php">sobre</a>
