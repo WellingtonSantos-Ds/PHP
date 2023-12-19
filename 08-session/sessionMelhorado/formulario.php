@@ -2,7 +2,21 @@
 session_start();
 require('heder.php');
 
+if($_SESSION['idade'] && $_SESSION['nome']){
+   echo $_SESSION['nome']."<br>";
+   echo $_SESSION['idade']."<br>";
+   $_SESSION['nome'] = '';
+   $_SESSION['nome'] = '' ;
+   
 
+}else if($_SESSION['nome']){
+  echo $_SESSION['nome'];
+  $_SESSION['nome'] = '';
+
+}else if($_SESSION['idade']){
+   echo $_SESSION['idade'];
+   $_SESSION['idade'] = '';
+}
 
 ?>
 
