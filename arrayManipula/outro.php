@@ -8,15 +8,11 @@ $array = [
 ];
 ?>
 <table border="1">
-
    <?php foreach($array as $chave => $valor):?>
-
-      <th><?php echo $chave;?></th>
-    
-      <td><?php echo $valor; ?></td>
-
-     
-   <?php endforeach ?>
-    
+      <tr>
+        <th><?php echo $chave;?></th>
+        <td><?php echo $valor; ?></td>
+      </tr>       
+   <?php endforeach ?> 
 </table>
 
