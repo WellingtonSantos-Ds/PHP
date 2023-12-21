@@ -15,8 +15,6 @@
 // echo 'Salvo';
 
 
- function soma ()
-
 //verificando o tipo do arquivo salvo.
 $tipo = ['image/jpe','image/png','image/jpg'];
 // echo '<pre>';
@@ -27,9 +25,9 @@ if(in_array($_FILES['arquivo']['type'],$tipo)){
    // salvando com nome aleatório. criando o pequeno hash com o md5 e concatenado com outra funções
 $name = md5(time().round(100)).'.jpg';
 move_uploaded_file($_FILES['arquivo']['tmp_name'],'salvandoPng/'.$name);
+
 echo 'Salvo';
 
 }else{
    echo 'Arquivo Não permitido'."<br>";
-
 }

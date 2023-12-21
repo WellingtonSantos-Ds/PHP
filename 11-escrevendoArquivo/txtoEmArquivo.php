@@ -6,7 +6,7 @@ file_put_contents('texto.txt',$texto);
 echo 'salvo';
 
 //lendo,escrevendo e salvando ,junto com outro texto.
-file_get_contents('texto.txt');
+$texto = file_get_contents('texto.txt');
 
 $texto .= "\n outro texto";
 file_put_contents('texto.txt',$texto);
