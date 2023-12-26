@@ -1,9 +1,10 @@
 <?php
 class Post{
    private $id;
-   private $likes;
-
-   public function setLikes($li){
+   //Eu posso atribuir valor diretamente na variavel porque ela está protected;
+   protected $likes;
+   // Quando é protected eu posso a cesar a variavel a partir da classe filha e sobre escrever o valor da variavel ou adicionar valor diretamente
+   protected function setLikes($li){
       $this-> likes = $li;
    }
    public function setId($i){
@@ -22,10 +23,11 @@ class Post{
 class Foto extends Post{
    
    private $url;
-
-
+   
    public function __construct($add){
       $this-> setId($add);
+      //Adicionando  valor direta mente;
+      $this-> likes = 2333;
    }
 
    public function setUrl($u){
@@ -40,9 +42,8 @@ class Foto extends Post{
 
 $foto = new Foto('#232323');
 $foto -> setUrl('www.wellington.com');
-$foto -> setLikes(34);
+
 
 echo 'Id = '.$foto->getId()."<br>";
 echo 'Url = '.$foto->getUrl()."<br>";
 echo 'Likes = '.$foto->getLikes()."<br>";
-
