@@ -10,12 +10,12 @@ class post {
 
     }
 
-    public function arr($add){
+    public function setComentes($add){
         // Adiciona o comentário ao array $this->coments
         $this -> coments[] = $add;
     }
 
-    public function pa(){
+    public function getAuthor(){
        
         $this-> author;
 
@@ -28,12 +28,14 @@ class post {
 
  $publicando -> aumentaLike();
  $publicando -> aumentaLike();
+ //comentes publico 
  $publicando -> coments[]= 'wellington muito feio';
  $publicando -> coments[]= 'cabeça de tijolo';
- $publicando -> arr(1);
- $publicando -> arr(34);
+ //Cometes privado
+ $publicando -> setComentes(1);
+ $publicando -> setComentes(34);
 
- echo $var1 = $publicando -> pa();
+ echo $var1 = $publicando -> getAuthor();
 
  //  print_r($publicando);
  
