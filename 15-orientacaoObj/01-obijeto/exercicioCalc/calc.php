@@ -1,31 +1,28 @@
 <?php 
-class number{
-   private $numero
 
-   public function add ($dd){
-      $this -> numero += $add;
+class Number{
+
+   private $total;
+
+   public function setAdd ($add){
+      $this -> total += $add;
    }
-   public function sub ($dd){
-      $this -> numero -= $dd;
+   public function setSub ($add){
+      $this -> total -= $add;
    }
-   public function mutiply ($dd){
-      $this->numero *= $add;
+   public function setMutiply ($add){
+      $this->total *= $add;
    }
-   public function divide ($dd){
-      $this-> numero /= $dd;
+   public function setDivide ($add){
+      $this-> total /= $add;
  
    }
-   public function clean (){
-      return $this-> numero = 0;
+   public function setClear (){
+      return $this-> total = 0;
  
    }
 
-   public function getNumero(){
-      return $this->numero;
+   public function getTotal(){
+      return $this->total;
    }
 }
-
-$cri = new number();
- $cri -> add(4)
-
-echo $cri -> getNumero();
