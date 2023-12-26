@@ -15,6 +15,3 @@ echo 'Total = '. $calc -> getTotal()."<br>";
 $calc -> setClear();
 echo 'Limpo = '. $calc -> getTotal()."<br>";
 
-
-
-
