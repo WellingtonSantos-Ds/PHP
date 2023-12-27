@@ -41,6 +41,7 @@ class Matematica
    
 }
 
-$mat = new Matematica(new Basic1,new Basic2);
-echo $mat->addAba(5,8)."<br>";
-echo $mat ->addsub(5,8);
+$basicos = new Basic2;
+$mat = new Matematica(new Basic1,$basicos);
+echo $mat->addAba(10,18)."<br>";
+echo $mat ->addsub(10,18);
