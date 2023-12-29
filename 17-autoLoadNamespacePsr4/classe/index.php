@@ -13,7 +13,6 @@ $m = new Basico();
 echo $m -> somar(3,3)."<br>";
 $m = new  Basico2();
 echo $m -> somar2(3,3)."<br>";
-
 //Outra forma de encontra o arquivo;
 $m = new foto\Upload;
 echo $m -> ver(3,3)."<br>";
