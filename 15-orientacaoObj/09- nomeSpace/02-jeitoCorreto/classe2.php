@@ -8,3 +8,10 @@ class MinhaClass
       return 'Testando classe 2';
    }
 }
+class MinhaClass2
+{
+   public function getTestar()
+   {
+      return 'fraco';
+   }
+}
