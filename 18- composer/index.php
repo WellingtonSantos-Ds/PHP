@@ -1,4 +1,7 @@
 <?php
+// composer install ; para instalar composer 
+// composer require monolog/monolog ; instalar biblioteca monolog;
+// composer dump-autoload ; para fazer o autoload;
 require 'vendor/autoload.php';
 use classe\mate\Basic;
 use Monolog\Logger;
